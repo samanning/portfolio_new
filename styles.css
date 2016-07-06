@@ -246,17 +246,6 @@ header img {
     padding
 }
 
-.slideout-header {
-    opacity: 0;
-    -webkit-transition: 0.3s ease-in-out all;
-    transition: 0.3s ease-in-out all;
-    position: fixed;
-    width: 300px;
-}
-
-.slideout-new {
-    opacity: 1;
-}
 
 /*== margin sizes (btm, top) ==*/
 
