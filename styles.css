@@ -100,13 +100,13 @@ footer a {
 }
 
 #asi {
-    background-image: url('/Media/asi.png');
+    background-image: url('/media/asi.png');
     background-size: cover;
     background-position: center;
 }
 
 #sort {
-    background-image: url('/media/stopthinksort.png');
+    background-image: url('media/stopthinksort.png');
     background-size: cover;
     background-position: center;
 }
