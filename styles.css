@@ -100,7 +100,7 @@ footer a {
 }
 
 #asi {
-    background-image: url('/media/asi.png');
+    background-image: url('media/asi.png');
     background-size: cover;
     background-position: center;
 }
@@ -112,43 +112,43 @@ footer a {
 }
 
 #bokashi {
-    background-image: url('/media/bokashi2.png');
+    background-image: url('media/bokashi2.png');
     background-size: cover;
     background-position: center;
 }
 
 #nets {
-    background-image: url('/media/nothing_but_nets.png');
+    background-image: url('media/nothing_but_nets.png');
     background-size: cover;
     background-position: center;
 }
 
 #mwd {
-    background-image: url('/media/mwd_bag.png');
+    background-image: url('media/mwd_bag.png');
     background-size: cover;
     background-position: center;
 }
 
 #oats {
-    background-image: url('/media/oats.png');
+    background-image: url('media/oats.png');
     background-size: cover;
     background-position: center;
 }
 
 #terrarium {
-    background-image: url('/media/terrarium.png');
+    background-image: url('media/terrarium.png');
     background-size: cover;
     background-position: center;
 }
 
 #rand {
-    background-image: url('/media/rand3.png');
+    background-image: url('media/rand3.png');
     background-size: cover;
     background-position: center;
 }
 
 #misc {
-    background-image: url('/media/floral_print.png');
+    background-image: url('media/floral_print.png');
     background-size: cover;
     background-position: center;
 }
