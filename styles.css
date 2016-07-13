@@ -10,19 +10,6 @@
 
 /*== typography ==*/
 
-
-/*
-@font-face {
-   font-family: 'Avenir';
-   src: url(fonts/Avenir.ttc);
-}
-
-@font-face {
-   font-family: 'Didot';
-   src: url(fonts/Didot.ttc);
-}
-*/
-
 body {
     font-family: 'Work Sans', 'Arial', sans-serif;
     font-size: 14px;
@@ -168,6 +155,8 @@ nav ul {
     text-align: right;
 }
 
+
+
 header {
     margin-left: 50px;
     margin-right: 50px;
@@ -225,6 +214,7 @@ header img {
     margin-left: auto;
     margin-right: auto;
 }
+
 /*== extras ==*/
 
 .fixed-nav-bar {
@@ -246,6 +236,22 @@ header img {
     padding
 }
 
+
+/*== hide show name ==*/
+
+/*==
+.hideme {
+    opacity: 0;
+}
+
+.showme {
+  opacity: 1!important;
+}
+*/
+
+.hideme{display: none;
+    position: fixed;
+}
 
 /*== margin sizes (btm, top) ==*/
 
@@ -322,6 +328,10 @@ header img {
     float: left;
 }
 
+.column2 {
+    float: right;
+}
+
 .container {
     width: 955px;
     margin: auto;
@@ -352,6 +362,24 @@ header img {
     opacity: 1;
 }
 
+/*==
+ul li a:hover {
+    color: #cfaf8f;
+    border-bottom: 1px solid #000;
+    padding-bottom: 3px;
+}
+==*/
+
+ul li a:hover {
+    color: #cfaf8f;
+}
+
+p a {
+    color: #000;
+}
+p a:hover {
+    color: #cfaf8f;
+}
 
 /*== responsive ==*/
 
