@@ -87,7 +87,13 @@ footer a {
 }
 
 #asi {
-    background-image: url('media/asi.png');
+    background-image: url('media/asi3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#bike {
+    background-image: url('media/bikes.png');
     background-size: cover;
     background-position: center;
 }
@@ -100,6 +106,12 @@ footer a {
 
 #bokashi {
     background-image: url('media/bokashi2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#hummingbird {
+    background-image: url('media/postcard_mockup_home.svg');
     background-size: cover;
     background-position: center;
 }
@@ -117,13 +129,19 @@ footer a {
 }
 
 #oats {
-    background-image: url('media/oats.png');
+    background-image: url('media/oats_test2.png');
     background-size: cover;
     background-position: center;
 }
 
 #terrarium {
     background-image: url('media/terrarium.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#type-posters {
+    background-image: url('media/type3b_home.svg');
     background-size: cover;
     background-position: center;
 }
@@ -260,7 +278,8 @@ header img {
 }
 */
 
-.hideme{display: none;
+.hideme {
+    display: none;
     position: fixed;
 }
 

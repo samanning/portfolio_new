@@ -76,7 +76,7 @@ $(document).ready(function () {
     $(document).scroll( function(){
        
             var y=$(this).scrollTop();
-            if(y > 308){
+            if(y > 199){
                 $('.hideme').fadeIn();
             }else{
                 $('.hideme').fadeOut();
