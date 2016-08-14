@@ -14,7 +14,8 @@
 
 body {
     font-family: 'Work Sans', 'Arial', sans-serif;
-    font-size: 14px;
+    font-size: 1em;
+/*    line-height: 1em;*/
     letter-spacing: 0.5px;
 }
 
@@ -35,7 +36,7 @@ h2 {
 
 h3 {
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 h4 {
@@ -141,7 +142,7 @@ footer a {
 }
 
 #hummingbird {
-    background-image: url('media/postcard_mockup_home.svg');
+    background-image: url('media/test2.svg');
     background-size: cover;
     background-position: center;
 }
