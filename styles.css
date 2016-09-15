@@ -202,7 +202,6 @@ footer li {
     margin-left: 50px;
     margin-right: 50px;
 }
-
 /*
 #about {
     margin-left: auto;
@@ -236,14 +235,11 @@ footer li {
 }
 */
 
-#about-main {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
+/*
 p.proj-description {
     width: 700px;
 }
+*/
 
 header img {
     display: block;
@@ -402,6 +398,14 @@ nav {
 
 .one-fourth {
     width: 25%;
+}
+
+.two-thirds {
+    width: 66%;
+}
+
+.three-fourths {
+    width: 75%;
 }
 
 .row:after {
