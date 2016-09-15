@@ -4,6 +4,10 @@
 
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:300,400,600);
 
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);*/
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700';
+
 * {
     margin: 0px;
     padding: 0px;
@@ -15,19 +19,18 @@
 body {
     font-family: 'Work Sans', 'Arial', sans-serif;
     font-size: 1em;
-/*    line-height: 1em;*/
     letter-spacing: 0.5px;
 }
 
 h1,
 h2 {
     font-family: 'Playfair Display', serif;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 1px;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 34px;
 }
 
 h2 {
@@ -41,11 +44,6 @@ h3 {
 
 h4 {
     font-weight: 200;
-}
-
-h6 {
-    font-size: 10px;
-    font-weight: 500;
 }
 
 a {
@@ -67,6 +65,9 @@ a {
     text-decoration: none;
 }
 
+footer{
+    font-size: 0.75em;
+}
 
 /*== colors ==*/
 
@@ -142,7 +143,7 @@ footer a {
 }
 
 #hummingbird {
-    background-image: url('media/test2.svg');
+    background-image: url('media/postcard_mockup_home2.svg');
     background-size: cover;
     background-position: center;
 }
@@ -160,7 +161,7 @@ footer a {
 }
 
 #oats {
-    background-image: url('media/oats_test2.png');
+    background-image: url('media/goodoat_bus_sys.svg');
     background-size: cover;
     background-position: center;
 }
@@ -247,9 +248,15 @@ footer li {
     text-align: center;
 }
 
+/*
 .proj-process {
     margin-left: auto;
     margin-right: auto;
+    width: 700px;
+}
+*/
+
+p.proj-description {
     width: 700px;
 }
 
