@@ -42,9 +42,7 @@ h3 {
     font-weight: 600;
 }
 
-h4 {
-    font-weight: 200;
-}
+
 
 a {
     text-decoration: none;
@@ -200,7 +198,7 @@ footer li {
     float: right;
 }
 
-section{
+.about-main {
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -238,9 +236,13 @@ section{
 }
 */
 
+#about-main {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 p.proj-description {
-    max-width: 700px;
-    min-width: 100px;
+    width: 700px;
 }
 
 header img {
@@ -265,7 +267,13 @@ header img {
 .main-content img{
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+}
+
+.main-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*== extras ==*/
