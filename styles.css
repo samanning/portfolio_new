@@ -170,7 +170,7 @@ footer a {
 nav li,
 footer li {
     list-style: none;
-    display: inline;
+    display: inline-block;
     letter-spacing: 0.5px;
     text-transform: lowercase;
     padding-left: 20px;
@@ -377,6 +377,10 @@ nav {
     margin-top: 10px;
 }
 
+
+.long-title {
+    max-width: 300px;
+}
 
 /*== grid ==*/
 
