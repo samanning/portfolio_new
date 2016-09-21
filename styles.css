@@ -42,14 +42,12 @@ h3 {
     font-weight: 600;
 }
 
-
-
 a {
     text-decoration: none;
 }
 
 .button {
-    color: #979797;
+    color: #17191C;
     background-color: none;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -61,6 +59,7 @@ a {
     border-width: 0.5px;
     border-radius: 2px;
     text-decoration: none;
+    margin-right: 20px;
 }
 
 footer{
@@ -74,16 +73,26 @@ body {
     color: #17191C;
 }
 
+p{
+   color: #757a83;    
+}
+
 header p {
     color: #757a83;
     line-height: 21px;
 }
 
+.proj-info p{
+    color: #ffffff;
+}
+
 nav a,
-footer a {
+footer a,
+footer p {
     text-decoration: none;
     color: #17191C;
 }
+
 
 
 /*== backgrounds ==*/
@@ -198,23 +207,6 @@ footer li {
     float: right;
 }
 
-.about-main {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-/*
-#about {
-    margin-left: auto;
-    margin-right: auto;
-    width: 700px;
-    text-align: center;
-}
-
-#about p{
-    text-align: left;
-}
-*/
-
 #connect {
     margin-left: auto;
     margin-right: auto;
@@ -260,6 +252,12 @@ header img {
     width: 100%;
 }
 
+.about-main {
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;  
+}
+
 .main-content img{
     display: block;
     margin-left: auto;
@@ -271,6 +269,8 @@ header img {
     margin-left: auto;
     margin-right: auto;
 }
+
+
 
 /*== extras ==*/
 
@@ -472,6 +472,10 @@ p a {
     color: #000;
 }
 p a:hover {
+    color: #cfaf8f;
+}
+
+.button:hover {
     color: #cfaf8f;
 }
 
