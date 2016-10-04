@@ -7,84 +7,62 @@ $(document).ready(function () {
     console.log('ready');
 
 
-    //    //default hide name
-    //$( ".show-name" ).hide();
 
-    //    hide name on scroll
-    //    $(window).scroll(function() {
-    //
-    //    if ($(this).scrollTop()>0)
-    //     {
-    //        $('.name').css(opacity: 1);
-    //     }
-    //    else
-    //     {
-    //      $('.name').css(opacity: 0);
-    //     }
-    // });
 
-    //    $(window).scroll(function(){
-    //    $(".name").css("opacity", 1 + $(window).scrollTop() / 350);
-    //  });
+    $(document).scroll(function () {
 
-    // hide show name... kinda works    
-    //    $(window).scroll(function() {
-    //  if ($(this).scrollTop()> 0) {
-    //    $('.show-name').fadeIn();
-    //   } else {
-    //    $('.show-name').fadeOut();
-    //   }
-    //});
+        var y = $(this).scrollTop();
+        if (y > 199) {
+            $('.hideme').fadeIn();
+        } else {
+            $('.hideme').fadeOut();
+        }
 
-//    /* Every time the window is scrolled ... */
-//    $(window).scroll(function () {
-//
-//        /* Check the location of each desired element */
-//        $('.hideme').each(function (i) {
-//
-//            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-//            var bottom_of_window = $(window).scrollTop() + $(window).height();
-//
-//            /* If the object is completely visible in the window, fade it in */
-//            if (bottom_of_window > bottom_of_object) {
-//
-//                $(this).animate({
-//                    'opacity': '1'
-//                }, 500);
-//
-//            }
-//
-//        });
-//
-//    });
+    });
 
-//GOOOOOD
-//    $(window).scroll( function(){
-//        $('.hideme').each( function(i){
-//            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-//            var bottom_of_window = $(window).scrollTop() + $(window).height();
-//            if( bottom_of_window > bottom_of_object ){
-//                $(this).addClass('showme');
-//            }
-//            if( bottom_of_window < bottom_of_object ){
-//                $(this).removeClass('showme');
+
+
+  
+
+//        var offset = 250;
+//
+//        var duration = 300;
+//
+//        $(window).scroll(function () {
+//            if ($(this).scrollTop() > offset) {
+//                $('.back-to-top').fadeIn(duration);
+//            } else {
+//                $('.back-to-top').fadeOut(duration);
 //            }
 //        });
-//    });
-    
+//    &nbsp;
+//    $('.back-to-top').click(function (event) {
+//        event.preventDefault();
+//        $('html, body').animate({scrollTop: 0}, duration);
+//        return false;
+//    })
 
-    $(document).scroll( function(){
-       
-            var y=$(this).scrollTop();
-            if(y > 199){
-                $('.hideme').fadeIn();
-            }else{
-                $('.hideme').fadeOut();
-            }
-                
-            });
+  
+//Check to see if the window is top if not then display button
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.back-to-top').fadeIn();
+		} else {
+			$('.back-to-top').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	$('.back-to-top').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
     
+//    //Display text when hover over arrow
+//    $('.back-to-top').hover(function(){
+//		$('html, body').animate({scrollTop : 0},800);
+//		return false;
+//	});
 
-    
-    
+
 })
