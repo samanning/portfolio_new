@@ -192,15 +192,19 @@ nav ul {
 
 
 header {
+/*
     margin-left: 50px;
     margin-right: 50px;
+*/
 }
 
 footer {
     padding-top: 20px;
     padding-bottom: 20px;
+/*
     margin-left: 50px;
     margin-right: 50px;
+*/
 }
 
 footer li {
@@ -232,6 +236,11 @@ p.proj-description {
     width: 700px;
 }
 */
+
+img {
+    width: 100%;
+    height: auto;
+}
 
 header img {
     display: block;
@@ -282,10 +291,12 @@ header img {
     width: 100%;
     height: 60px;
     background-color: #FFFFFF;
+/*
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
+*/
 }
 
 nav {
@@ -295,16 +306,15 @@ nav {
     width: 100%;
     height: 60px;
     background-color: #FFFFFF;
+/*
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
+*/
 }
 
-.bio-img {
-    margin-top: -200px;
-    padding
-}
+
 
 .back-to-top {
     background: none;
@@ -452,7 +462,7 @@ nav {
 }
 
 .container {
-    width: 955px;
+    width: 1000px;
     margin: auto;
 }
 
