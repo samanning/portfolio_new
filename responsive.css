@@ -1,0 +1,47 @@
+/*== Responsive ==*/
+
+/*== Smartphone/ Mobile ==*/
+
+@media only screen and (max-width: 480px) {
+    .container {
+        width: inherit;
+    }
+    nav {
+        display: none;
+    }
+/*
+    .one-third{
+    	width: 100%;
+    }
+*/
+   
+}
+
+/*== Tablets ==*/
+
+@media only screen and (min-width: 480px) and (max-width: 954px) {
+    .container {
+        width: inherit;
+    }
+    nav {
+        display: none;
+    }
+/*
+    .one-third{
+    	width:50%;
+    }
+*/
+}
+
+/*== Desktops ==*/
+
+@media only screen and (min-width: 954px) {
+/*
+    .menu {
+        display: none;
+    }
+*/
+    .container {
+        width: inherit;
+    }
+}
