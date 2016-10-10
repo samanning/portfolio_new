@@ -64,5 +64,11 @@ $(document).ready(function () {
 //		return false;
 //	});
 
+    $( '.icon-box-toggle' ).bind( 'click', function(e) {
+		$( this ).toggleClass( 'active' );
+		e.preventDefault();
+
+});
+
 
 })

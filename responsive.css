@@ -6,7 +6,7 @@
     .container {
         width: inherit;
     }
-    nav {
+    #nav-items {
         display: none;
     }
 /*
@@ -19,13 +19,14 @@
 
 /*== Tablets ==*/
 
-@media only screen and (min-width: 480px) and (max-width: 954px) {
+@media only screen and (min-width: 480px) and (max-width: 800px) {
     .container {
         width: inherit;
     }
-    nav {
+    #nav-items {
         display: none;
     }
+    
 /*
     .one-third{
     	width:50%;
@@ -35,13 +36,12 @@
 
 /*== Desktops ==*/
 
-@media only screen and (min-width: 954px) {
-/*
-    .menu {
-        display: none;
-    }
-*/
+@media only screen and (min-width: 801px) {
     .container {
         width: inherit;
     }
+    .button-square {
+        display:none;
+    }
+    
 }
