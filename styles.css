@@ -349,16 +349,6 @@ nav {
 
 /*== hide show name ==*/
 
-/*==
-.hideme {
-    opacity: 0;
-}
-
-.showme {
-  opacity: 1!important;
-}
-*/
-
 .hideme {
     display: none;
     position: fixed;
@@ -529,17 +519,17 @@ p a:hover {
 
 .button-square  {
 font-size: 20px; 
-color: #666; 
-line-height: 48px; 
+color: #000000; 
+line-height: 36px; 
 text-align: center; 
 background: transparent; 
 display: inline-block; 
-width: 48px; 
-height: 48px; 
+width: 36px; 
+height: 36px; 
 cursor: pointer; 
 padding: 0px; 
 float: right;
-margin: 0 14px; 
+margin: 0 0px; 
 }
 
 /* Icons */ 
@@ -556,7 +546,7 @@ display: block;
 position: absolute; 
 width: 20px; 
 height: 3px; 
-background: #666; 
+background: #000000; 
 margin: -1.5px 0 0 -10px;
 left: 50%;
 top: 50%; 
@@ -571,7 +561,7 @@ top: 50%;
 position: absolute; 
 width: 20px; 
 height: 3px; 
-background: #666; 
+background: #000000; 
 margin: -3px 0 0 -10px;
 left: 50%;
 top: 40%; 
@@ -585,7 +575,7 @@ top: 40%;
 position: absolute; 
 width: 20px; 
 height: 3px; 
-background: #666; 
+background: #000000; 
 margin: 1.5px 0 0 -10px;
 left: 50%;
 top: 60%; 

@@ -9,6 +9,25 @@
     #nav-items {
         display: none;
     }
+    nav {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+    .one-half {
+        width: 100%;
+    }
+    .mrg-btm-lg {
+        margin-bottom: 10px;
+    }
+
 /*
     .one-third{
     	width: 100%;
@@ -26,6 +45,18 @@
     #nav-items {
         display: none;
     }
+    nav {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
     
 /*
     .one-third{
