@@ -192,15 +192,15 @@ nav ul {
 
 
 header {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 footer {
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 footer li {
@@ -259,8 +259,8 @@ header img {
 
 .about-main {
     display: block;
-    margin-left: 50px;
-    margin-right: 50px;  
+    margin-left: 100px;
+    margin-right: 100px;  
 }
 
 .main-content img{
@@ -283,6 +283,10 @@ header img {
     padding-left: 20px;
 }
 
+.pad-mid img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 
 /*== extras ==*/
@@ -310,8 +314,8 @@ nav {
     width: 100%;
     height: 60px;
     background-color: #FFFFFF;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
