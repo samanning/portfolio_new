@@ -1,5 +1,6 @@
 /*== Responsive ==*/
 
+
 /*== Smartphone/ Mobile ==*/
 
 @media only screen and (max-width: 480px) {
@@ -9,32 +10,56 @@
     #nav-items {
         display: none;
     }
+    #slide-menu {
+        display: none;
+    }
     nav {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
     .one-half {
+        width: 100%;
+    }
+    .one-third {
+        width: 100%;
+    }
+     .two-thirds {
         width: 100%;
     }
     .mrg-btm-lg {
         margin-bottom: 10px;
     }
-
-/*
+    .about-main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    header {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .header-name {
+        display: none;
+        position: fixed;
+        
+    }
+    header .mrg-top-lg {
+        margin-top: 10px;
+    }
+    /*
     .one-third{
     	width: 100%;
     }
 */
-   
 }
+
 
 /*== Tablets ==*/
 
@@ -46,24 +71,33 @@
         display: none;
     }
     nav {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-    
-/*
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about-main {
+        display: block;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    header {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    /*
     .one-third{
     	width:50%;
     }
 */
 }
+
 
 /*== Desktops ==*/
 
@@ -72,7 +106,6 @@
         width: inherit;
     }
     .button-square {
-        display:none;
+        display: none;
     }
-    
 }
