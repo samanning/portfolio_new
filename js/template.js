@@ -69,6 +69,34 @@ $(document).ready(function () {
 		e.preventDefault();
 
 });
+    
+    
+    
+    //slide out menu nav
+    
+   
+  var h = $(".icon-nav"),
+      c = $(".slide-content");
+  
+  h.on("click",function(){
+  h.toggleClass("open");
+ 
+ if(h.hasClass("open")) {
+      
+  c.animate({ left: 0 }, 300);
+     $("about-main").css("opacity", "0.3");
+    }else {
+  c.animate({ left: '-100%' }, 300);
+      $("about-main").css("opacity", "1.0");
+    };
+    
+  });
+  
+  
+
+  
+  
+
 
 
 })

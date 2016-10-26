@@ -201,7 +201,7 @@ footer {
     padding-bottom: 20px;
     padding-left: 100px;
     padding-right: 100px;
-    border-top: #344050 solid 1px;
+    border-top: #d8d8d8 solid 1px;
 }
 
 footer li {
@@ -292,6 +292,7 @@ header img {
 
 /*== extras ==*/
 
+
 .fixed-nav-bar {
     position: fixed;
     top: 0;
@@ -307,6 +308,7 @@ header img {
     padding-bottom: 10px;
 */
 }
+
 
 nav {
     top: 0;
@@ -347,17 +349,37 @@ nav {
 }
 
 
+/*== slide menu nav ==*/
 
-/*== gif ==*/
-/*
-.container{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: 0px;
-	top: 0px;
+.icon-nav {
+    padding-bottom: 0px;
+    padding-top: 4px;
+    width: 40px;
+    float: right;
+    cursor: pointer;
 }
-*/
+
+/*=========content========*/
+.slide-content {
+    width: 75%;
+    height: 100%;
+    background-color:#d8d8d8;
+    position:absolute;
+    top: 50px;
+    left:-100%;
+    padding-top: 50px;
+}
+
+.slide-content a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#slide-nav-items li{
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
 
 /*== hide show name ==*/
 
@@ -507,6 +529,10 @@ p a:hover {
 }
 
 .button:hover {
+    color: #cfaf8f;
+}
+
+.slide-content a:hover {
     color: #cfaf8f;
 }
 

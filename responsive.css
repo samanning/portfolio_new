@@ -10,9 +10,11 @@
     #nav-items {
         display: none;
     }
+/*
     #slide-menu {
         display: none;
     }
+*/
     nav {
         padding-left: 12px;
         padding-right: 12px;
@@ -46,7 +48,6 @@
         margin-right: 10px;
     }
     .header-name {
-        display: none;
         position: fixed;
         
     }
@@ -105,7 +106,10 @@
     .container {
         width: inherit;
     }
-    .button-square {
+    .icon-nav, .button-square {
+        display: none;
+    }
+    .slide-content, #slide-nav-items {
         display: none;
     }
 }
