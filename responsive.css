@@ -36,8 +36,11 @@
      .two-thirds {
         width: 100%;
     }
-    .mrg-btm-lg {
+    .mrg-btm-md {
         margin-bottom: 10px;
+    }
+    .mrg-btm-lg {
+        margin-bottom: 15px;
     }
     .about-main {
         margin-left: 10px;
@@ -53,6 +56,12 @@
     }
     header .mrg-top-lg {
         margin-top: 10px;
+    }
+    .fa-angle-up {
+        display: none;
+    }
+    #social-links {
+        display: none;
     }
     /*
     .one-third{
