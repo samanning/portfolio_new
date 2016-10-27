@@ -82,12 +82,11 @@ $(document).ready(function () {
   h.toggleClass("open");
  
  if(h.hasClass("open")) {
-      
-  c.animate({ left: 0 }, 300);
-     $("about-main").css("opacity", "0.3");
+     c.animate({ left: 0 }, 300);
+     $(".slide-content").css("box-shadow","200px 1px 5px rgba(0,0,0,0.5)");
     }else {
-  c.animate({ left: '-100%' }, 300);
-      $("about-main").css("opacity", "1.0");
+        c.animate({ left: '-100%' }, 300);
+        $(".slide-content").css("box-shadow","0px 0px 0px rgba(0,0,0,0)")
     };
     
   });

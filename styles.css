@@ -366,8 +366,9 @@ nav {
     background-color:#d8d8d8;
     position:absolute;
     top: 50px;
-    left:-100%;
+    left:-200%;
     padding-top: 50px;
+    box-shadow: 200px 1px 5px rgba(0,0,0,0.5);
 }
 
 .slide-content a{
