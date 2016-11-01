@@ -208,12 +208,21 @@ footer li {
     float: right;
 }
 
+/*
 .footer-bottom {
     position: absolute;
     right: 0;
-  bottom: 0;
-  left: 0;
+    bottom: 0;
+    left: 0;
 }
+*/
+
+
+/*
+.footer-bottom {
+    
+}
+*/
 
 #connect {
     margin-left: auto;
