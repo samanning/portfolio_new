@@ -86,11 +86,10 @@
         padding-left: 0px;
         padding-right: 0px;
     }
-    /*
-    .one-third{
-    	width: 100%;
+    .proj-info{
+        display: none;
     }
-*/
+    
 }
 
 

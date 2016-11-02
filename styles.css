@@ -101,9 +101,12 @@ footer p {
 .work {
     height: 272px;
     position: relative;
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
 }
+
+/*
+overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+*/
 
 #asi {
     background-image: url('media/asi3.jpg');
