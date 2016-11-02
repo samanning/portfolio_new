@@ -15,6 +15,9 @@
         font-size: 0.8em;
     }
 */
+    body p {
+        line-height: 21px;
+    }
     nav {
         padding-left: 10px;
         padding-right: 10px;
@@ -53,10 +56,12 @@
         margin-left: 10px;
         margin-right: 10px;
     }
+/*
     header p,
     .about-description {
         line-height: 16px;
     }
+*/
     .header-name {
         position: fixed;
     }
