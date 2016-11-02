@@ -101,6 +101,8 @@ footer p {
 .work {
     height: 272px;
     position: relative;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 #asi {
