@@ -56,12 +56,10 @@
         margin-left: 10px;
         margin-right: 10px;
     }
-/*
     header p,
     .about-description {
-        line-height: 16px;
+        line-height: 21px;
     }
-*/
     .header-name {
         position: fixed;
     }
