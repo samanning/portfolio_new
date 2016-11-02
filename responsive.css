@@ -10,7 +10,7 @@
     #nav-items {
         display: none;
     }
-/*
+    /*
     body {
         font-size: 0.8em;
     }
@@ -86,10 +86,9 @@
         padding-left: 0px;
         padding-right: 0px;
     }
-    .proj-info{
-        display: none;
+    .proj-info:hover {
+        opacity: 0;
     }
-    
 }
 
 
