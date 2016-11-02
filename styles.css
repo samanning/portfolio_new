@@ -382,13 +382,14 @@ nav {
 
 .slide-content {
     width: 75%;
-    height: 100%;
+    height: 150%;
     background-color: #d8d8d8;
     position: absolute;
     top: 50px;
     left: -200%;
     padding-top: 50px;
     box-shadow: 200px 1px 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
 }
 
 .slide-content a {
