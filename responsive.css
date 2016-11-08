@@ -145,9 +145,11 @@
     .header-name {
         position: fixed;
     }
+/*
     .fa-angle-up {
         display: none;
     }
+*/
     #social-links {
         display: none;
     }
