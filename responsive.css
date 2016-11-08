@@ -19,16 +19,16 @@
         line-height: 21px;
     }
     nav {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
     footer {
         padding-top: 10px;
         padding-bottom: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .one-half {
         width: 100%;
@@ -40,17 +40,17 @@
         width: 100%;
     }
     .mrg-btm-sm {
-        margin-bottom: 5px;
-    }
-    .mrg-btm-md {
         margin-bottom: 10px;
     }
-    .mrg-btm-lg {
+    .mrg-btm-md {
         margin-bottom: 15px;
     }
+    .mrg-btm-lg {
+        margin-bottom: 20px;
+    }
     .about-main {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
     header {
         margin-left: 10px;
@@ -132,13 +132,13 @@
         width: 100%;
     }
     .mrg-btm-sm {
-        margin-bottom: 5px;
-    }
-    .mrg-btm-md {
         margin-bottom: 10px;
     }
-    .mrg-btm-lg {
+    .mrg-btm-md {
         margin-bottom: 15px;
+    }
+    .mrg-btm-lg {
+        margin-bottom: 20px;
     }
     .header-name {
         position: fixed;

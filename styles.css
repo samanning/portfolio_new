@@ -67,6 +67,16 @@ footer {
     font-size: 0.75em;
 }
 
+.fa-ul {
+    margin-left: 0px;
+}
+
+.connect-btn {
+    font-size: 2em;
+    color: #17191C;
+    margin-right: 58px;
+}
+
 
 /*== colors ==*/
 
@@ -92,6 +102,16 @@ nav a,
 footer a,
 footer p {
     text-decoration: none;
+    color: #17191C;
+}
+
+/*
+.blk-text {
+    color: #17191C;
+}
+*/
+
+.connect-link {
     color: #17191C;
 }
 
@@ -310,6 +330,7 @@ header img {
     padding-left: 10px;
     padding-right: 10px;
 }
+
 
 
 /*== extras ==*/
@@ -567,6 +588,13 @@ p a:hover {
     color: #cfaf8f;
 }
 
+.connect-btn:hover {
+    color: #cfaf8f;
+}
+
+.connect-link:hover {
+    color: #cfaf8f;
+}
 
 /*== responsive ==*/
 
