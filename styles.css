@@ -201,6 +201,12 @@ overflow: scroll;
     background-position: center;
 }
 
+#ebay {
+    background-image: url('media/ebay_logo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 
 /*== positioning ==*/
 
