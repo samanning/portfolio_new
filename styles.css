@@ -229,8 +229,8 @@ header {
 }
 
 footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 100px;
     padding-right: 100px;
     border-top: rgba(0, 0, 0, 0.2) solid 0.5px;
