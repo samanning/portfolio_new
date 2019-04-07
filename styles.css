@@ -739,3 +739,12 @@ p a:hover {
     -o-transform: translate(0px, 0px) rotate(45deg);
     transform: translate(0px, 0px) rotate(45deg);
 }
+
+
+/*
+ * 	Owl Carousel - Auto Height Plugin
+ */
+
+.owl-height {
+	transition: height 500ms ease-in-out;
+}
