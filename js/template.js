@@ -93,10 +93,8 @@ $(document).ready(function () {
   
   
 // owl carousel
+//set up carousel , To enable use autoHeight: true. At the moment works only with 1 item on screen. The plan is to calculate all visible items and change height according to heighest item.
     
-    //set up carousel , responsive
-    
-
   $('.owl-carousel').owlCarousel({
     items:1,
     margin:10,
