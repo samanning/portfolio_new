@@ -212,6 +212,12 @@ overflow: scroll;
     background-position: center;
 }
 
+#budget {
+    background-image: url('media/budget_doorway.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 
 /*== positioning ==*/
 
