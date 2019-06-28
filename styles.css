@@ -27,7 +27,7 @@ h2 {
 }
 
 h1 {
-    font-size: 34px;
+    font-size: 40px;
 }
 
 h2 {
@@ -118,6 +118,16 @@ footer p {
 /*
 .fa-linkedin-square {
     font-size: 20px;
+}
+*/
+#about-bg {
+    background-color: #F2F0ED;
+    background-size: cover;
+
+}
+/*
+#about-bg p {
+color: #000000;
 }
 */
 
