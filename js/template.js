@@ -73,8 +73,7 @@ $(document).ready(function () {
     
     
     //slide out menu nav
-    
-   
+
   var h = $(".icon-nav"),
       c = $(".slide-content");
   
@@ -90,7 +89,7 @@ $(document).ready(function () {
     };
     
   });
-  
+
   
 // owl carousel
 //set up carousel , To enable use autoHeight: true. At the moment works only with 1 item on screen. The plan is to calculate all visible items and change height according to heighest item.
