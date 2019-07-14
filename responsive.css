@@ -48,8 +48,14 @@
     .mrg-btm-lg {
         margin-bottom: 20px;
     }
-    .mrg-top-lg {
+    .mrg-top-md {
+        margin-top: 15px;
+    }
+    #letsconnect.mrg-top-lg {
         margin-top: 20px;
+    }
+   .about-description.mrg-btm-lg {
+        margin-bottom: 20px;
     }
     .mrg-top-xlg {
         margin-top: 100px;
