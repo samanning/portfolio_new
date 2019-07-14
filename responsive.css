@@ -48,6 +48,12 @@
     .mrg-btm-lg {
         margin-bottom: 20px;
     }
+    .mrg-top-lg {
+        margin-top: 20px;
+    }
+    .mrg-top-xlg {
+        margin-top: 100px;
+    }
     .about-main {
         margin-left: 15px;
         margin-right: 15px;
