@@ -36,6 +36,9 @@
     .one-third {
         width: 100%;
     }
+    .one-fourth {
+        width: 100%;
+    }
     .two-thirds {
         width: 100%;
     }
@@ -50,6 +53,9 @@
     }
     .mrg-top-md {
         margin-top: 15px;
+    }
+    .pad-right iframe {
+        padding-right: 0px;
     }
     #letsconnect.mrg-top-lg {
         margin-top: 20px;
@@ -140,6 +146,9 @@
         width: 100%;
     }
     .one-third {
+        width: 100%;
+    }
+    .one-fourth {
         width: 100%;
     }
     .two-thirds {

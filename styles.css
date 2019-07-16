@@ -358,7 +358,18 @@ header img {
     padding-right: 10px;
 }
 
+.pad-right iframe{
+    padding-right: 50px;
+}
 
+.pad-mid iframe {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.pad-left iframe {
+    padding-left: 50px;
+}
 
 /*== extras ==*/
 
