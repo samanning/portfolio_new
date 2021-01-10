@@ -228,6 +228,13 @@ overflow: scroll;
     background-position: center;
 }
 
+#gsw {
+    background-image: url('media/gsw_portfolio_doorway2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
 
 /*== positioning ==*/
 
